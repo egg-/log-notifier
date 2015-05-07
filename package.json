@@ -1,0 +1,16 @@
+{
+  "name": "log-notifier",
+  "version": "0.0.1",
+  "author": "egg <i@egg.pe.kr>",
+  "description": "Notify the logs.",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/egg-/log-notifier.git"
+  },
+  "main": "./index",
+  "devDependencies": {
+    "hipchatter": "^0.2.0",
+    "moment": "^2.10.2"
+  }
+}
