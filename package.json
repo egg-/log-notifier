@@ -1,13 +1,22 @@
 {
   "name": "log-notifier",
-  "version": "0.0.1",
-  "author": "egg <i@egg.pe.kr>",
-  "description": "Notify the logs.",
+  "version": "0.1.0",
+  "author": {
+    "name": "egg",
+    "email": "i@egg.pe.kr"
+  },
+  "description": "simple notifier for logs.",
   "scripts": {},
   "repository": {
     "type": "git",
     "url": "git://github.com/egg-/log-notifier.git"
   },
+  "keywords": [
+    "log",
+    "hipchat",
+    "notifier"
+  ],
+  "license": "MIT",
   "main": "./index",
   "devDependencies": {
     "hipchatter": "^0.2.0",
