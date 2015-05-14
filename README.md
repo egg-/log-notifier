@@ -1,5 +1,9 @@
 # log-notifier
 
+[![version](https://img.shields.io/npm/v/log-notifier.svg) ![download](https://img.shields.io/npm/dm/log-notifier.svg)](https://www.npmjs.com/package/log-notifier)
+
+simple notifier for logs.
+
 ## Usage
 
 ```javascript
