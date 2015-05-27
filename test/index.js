@@ -28,3 +28,21 @@ hipchat.log('log message');
 hipchat.info('info message');
 hipchat.warn('warn message');
 hipchat.error('error message');
+
+
+var slack = new Notifier.Slack({
+    "webhookurl": "https://hooks.slack.com/services/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",
+    "channel": "#report",
+    "mention": [
+        "@rei"
+    ],
+    "allow": "error|info",
+    "name": "api",
+	"icon": "http://icons.iconarchive.com/icons/custom-icon-design/flatastic-11/96/Megaphone-icon.png"
+});
+
+// user
+slack.log('log message');
+slack.info('info message');
+slack.warn('warn message');
+slack.error('error message');
